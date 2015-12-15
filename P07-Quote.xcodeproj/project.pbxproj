@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BED8210E1C17806100CE762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED8210D1C17806100CE762A /* AppDelegate.swift */; };
-		BED821101C17806100CE762A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED8210F1C17806100CE762A /* ViewController.swift */; };
 		BED821131C17806100CE762A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED821111C17806100CE762A /* Main.storyboard */; };
 		BED821151C17806100CE762A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED821141C17806100CE762A /* Assets.xcassets */; };
 		BED821181C17806100CE762A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED821161C17806100CE762A /* LaunchScreen.storyboard */; };
+		BED821201C1781AF00CE762A /* StockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED8211F1C1781AF00CE762A /* StockListViewController.swift */; };
+		BED821221C17841500CE762A /* StockViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED821211C17841500CE762A /* StockViewCell.swift */; };
+		BED95B4F1C1BCBE800433BFB /* SingleStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED95B4E1C1BCBE800433BFB /* SingleStockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BED8210A1C17806100CE762A /* P07-Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P07-Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED8210D1C17806100CE762A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BED8210F1C17806100CE762A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BED821121C17806100CE762A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BED821141C17806100CE762A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED821171C17806100CE762A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED821191C17806100CE762A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED8211F1C1781AF00CE762A /* StockListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockListViewController.swift; sourceTree = "<group>"; };
+		BED821211C17841500CE762A /* StockViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockViewCell.swift; sourceTree = "<group>"; };
+		BED95B4E1C1BCBE800433BFB /* SingleStockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleStockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				BED8210D1C17806100CE762A /* AppDelegate.swift */,
-				BED8210F1C17806100CE762A /* ViewController.swift */,
 				BED821111C17806100CE762A /* Main.storyboard */,
+				BED95B4E1C1BCBE800433BFB /* SingleStockViewController.swift */,
+				BED8211F1C1781AF00CE762A /* StockListViewController.swift */,
+				BED821211C17841500CE762A /* StockViewCell.swift */,
 				BED821141C17806100CE762A /* Assets.xcassets */,
 				BED821161C17806100CE762A /* LaunchScreen.storyboard */,
 				BED821191C17806100CE762A /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BED821101C17806100CE762A /* ViewController.swift in Sources */,
+				BED821201C1781AF00CE762A /* StockListViewController.swift in Sources */,
+				BED821221C17841500CE762A /* StockViewCell.swift in Sources */,
 				BED8210E1C17806100CE762A /* AppDelegate.swift in Sources */,
+				BED95B4F1C1BCBE800433BFB /* SingleStockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				BED8211E1C17806100CE762A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
