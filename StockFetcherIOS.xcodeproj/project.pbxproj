@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BED8210A1C17806100CE762A /* P07-Quote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P07-Quote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED8210A1C17806100CE762A /* StockFetcherIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockFetcherIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED8210D1C17806100CE762A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED821121C17806100CE762A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BED821141C17806100CE762A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		BED821011C17806100CE762A = {
 			isa = PBXGroup;
 			children = (
-				BED8210C1C17806100CE762A /* P07-Quote */,
+				BED8210C1C17806100CE762A /* StockFetcherIOS */,
 				BED8210B1C17806100CE762A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		BED8210B1C17806100CE762A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BED8210A1C17806100CE762A /* P07-Quote.app */,
+				BED8210A1C17806100CE762A /* StockFetcherIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BED8210C1C17806100CE762A /* P07-Quote */ = {
+		BED8210C1C17806100CE762A /* StockFetcherIOS */ = {
 			isa = PBXGroup;
 			children = (
 				BED8210D1C17806100CE762A /* AppDelegate.swift */,
@@ -67,15 +67,16 @@
 				BED821161C17806100CE762A /* LaunchScreen.storyboard */,
 				BED821191C17806100CE762A /* Info.plist */,
 			);
+			name = StockFetcherIOS;
 			path = "P07-Quote";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BED821091C17806100CE762A /* P07-Quote */ = {
+		BED821091C17806100CE762A /* StockFetcherIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BED8211C1C17806100CE762A /* Build configuration list for PBXNativeTarget "P07-Quote" */;
+			buildConfigurationList = BED8211C1C17806100CE762A /* Build configuration list for PBXNativeTarget "StockFetcherIOS" */;
 			buildPhases = (
 				BED821061C17806100CE762A /* Sources */,
 				BED821071C17806100CE762A /* Frameworks */,
@@ -85,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "P07-Quote";
+			name = StockFetcherIOS;
 			productName = "P07-Quote";
-			productReference = BED8210A1C17806100CE762A /* P07-Quote.app */;
+			productReference = BED8210A1C17806100CE762A /* StockFetcherIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BED821051C17806100CE762A /* Build configuration list for PBXProject "P07-Quote" */;
+			buildConfigurationList = BED821051C17806100CE762A /* Build configuration list for PBXProject "StockFetcherIOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BED821091C17806100CE762A /* P07-Quote */,
+				BED821091C17806100CE762A /* StockFetcherIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +259,7 @@
 				INFOPLIST_FILE = "P07-Quote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.EasternMichiganUniversity.WilliamGillespie.P07-Quote";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StockFetcherIOS;
 			};
 			name = Debug;
 		};
@@ -269,14 +270,14 @@
 				INFOPLIST_FILE = "P07-Quote/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.EasternMichiganUniversity.WilliamGillespie.P07-Quote";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = StockFetcherIOS;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BED821051C17806100CE762A /* Build configuration list for PBXProject "P07-Quote" */ = {
+		BED821051C17806100CE762A /* Build configuration list for PBXProject "StockFetcherIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BED8211A1C17806100CE762A /* Debug */,
@@ -285,7 +286,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BED8211C1C17806100CE762A /* Build configuration list for PBXNativeTarget "P07-Quote" */ = {
+		BED8211C1C17806100CE762A /* Build configuration list for PBXNativeTarget "StockFetcherIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BED8211D1C17806100CE762A /* Debug */,

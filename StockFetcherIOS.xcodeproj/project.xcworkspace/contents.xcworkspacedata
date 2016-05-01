@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:P07-Quote.xcodeproj">
+      location = "self:/Users/Will/Documents/Developer/P07-Quote/StockFetcherIOS.xcodeproj">
    </FileRef>
 </Workspace>

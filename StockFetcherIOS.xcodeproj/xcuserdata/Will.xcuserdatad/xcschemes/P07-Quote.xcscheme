@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BED821091C17806100CE762A"
-               BuildableName = "P07-Quote.app"
-               BlueprintName = "P07-Quote"
-               ReferencedContainer = "container:P07-Quote.xcodeproj">
+               BuildableName = "StockFetcherIOS.app"
+               BlueprintName = "StockFetcherIOS"
+               ReferencedContainer = "container:StockFetcherIOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BED821091C17806100CE762A"
-            BuildableName = "P07-Quote.app"
-            BlueprintName = "P07-Quote"
-            ReferencedContainer = "container:P07-Quote.xcodeproj">
+            BuildableName = "StockFetcherIOS.app"
+            BlueprintName = "StockFetcherIOS"
+            ReferencedContainer = "container:StockFetcherIOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BED821091C17806100CE762A"
-            BuildableName = "P07-Quote.app"
-            BlueprintName = "P07-Quote"
-            ReferencedContainer = "container:P07-Quote.xcodeproj">
+            BuildableName = "StockFetcherIOS.app"
+            BlueprintName = "StockFetcherIOS"
+            ReferencedContainer = "container:StockFetcherIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BED821091C17806100CE762A"
-            BuildableName = "P07-Quote.app"
-            BlueprintName = "P07-Quote"
-            ReferencedContainer = "container:P07-Quote.xcodeproj">
+            BuildableName = "StockFetcherIOS.app"
+            BlueprintName = "StockFetcherIOS"
+            ReferencedContainer = "container:StockFetcherIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
