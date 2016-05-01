@@ -25,7 +25,7 @@ class StockListViewController: UITableViewController {
         for tickerName in tickerNamesList {
             tickerInfoDict[tickerName] = fetchStockData(tickerName)
         }
-        self.myRefreshControl?.addTarget(self, action: "refreshStockData:", forControlEvents: UIControlEvents.ValueChanged)
+        self.myRefreshControl?.addTarget(self, action: #selector(StockListViewController.refreshStockData(_:)), forControlEvents: UIControlEvents.ValueChanged)
     }
     /*
         Refreshes the info in the listview.  The stock data is fetched on a different thread.  The main thread is acquired
@@ -247,15 +247,15 @@ class StockListViewController: UITableViewController {
     @return:String formatted string if the parameter is a true percent value and can be parsed
             or nil if it cannot be parsed
     */
-    func formatPercent(var percent: String) -> String? {
-        percent = percent.stringByReplacingOccurrencesOfString("%", withString: "")
+    func formatPercent(percent: String) -> String? {
+        var percentStr = percent.stringByReplacingOccurrencesOfString("%", withString: "")
         var isNegative:Bool = false
-        if percent[percent.startIndex] == "-" {
-            percent = percent.stringByReplacingOccurrencesOfString("-", withString: "")
+        if percentStr[percentStr.startIndex] == "-" {
+            percentStr = percentStr.stringByReplacingOccurrencesOfString("-", withString: "")
             isNegative = true
         }
         
-        if let numericPercent = Float(percent) {//if the number is parseable, format it pretty and return it
+        if let numericPercent = Float(percentStr) {//if the number is parseable, format it pretty and return it
             let formattedPercent:String = "\(String(format: "%.2f", numericPercent))%"
             return isNegative ? "-\(formattedPercent)" : "+\(formattedPercent)"
         }else{// if the number is unparseable, return nil

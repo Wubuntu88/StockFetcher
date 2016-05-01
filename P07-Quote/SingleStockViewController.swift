@@ -106,7 +106,7 @@ class SingleStockViewController: UIViewController {
         if comps[1].characters.count > 20 {
             var companyName:[String] = comps[1].componentsSeparatedByString(" ")
             var firstPart:String = companyName[companyName.startIndex]
-            for var index = 1; index < companyName.count - 1; index++ {
+            for index in 1 ..< companyName.count - 1 {
                 firstPart = firstPart.stringByAppendingString(" \(companyName[index])")
             }
             firstPart = firstPart.stringByAppendingString("\n\(companyName[companyName.endIndex.predecessor()])")
@@ -244,7 +244,7 @@ class SingleStockViewController: UIViewController {
         updateButton.enabled = false
         pauseButton.enabled = true
         if timer == nil {
-            timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("fetchDataAndUpdateLabels"), userInfo: nil, repeats: true)
+            timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(SingleStockViewController.fetchDataAndUpdateLabels), userInfo: nil, repeats: true)
         }
     }
     
